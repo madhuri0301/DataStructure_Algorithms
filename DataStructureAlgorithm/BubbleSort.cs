@@ -6,7 +6,7 @@ namespace DataStructureAlgorithm
 {
     class BubbleSort
     {
-		public void bubblesort(int []array)
+		public void bubblesort(int []array) //Method To Use BubbleSort
 		{
 
 			int n = array.Length;
@@ -23,7 +23,7 @@ namespace DataStructureAlgorithm
 				}
 			}
 		}
-		public void printsortedarray(int []array)
+		public void printsortedarray(int []array) //Method To Use Sorted Array
 		{
 			int n = array.Length;
 			for (int i = 0; i < n; ++i)
