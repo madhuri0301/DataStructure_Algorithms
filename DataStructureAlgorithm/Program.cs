@@ -21,7 +21,7 @@ namespace DataStructureAlgorithm
 
                 // Passing a value to the array
                 case 2:
-                    String[] arr = { "Harshu", "Mansi", "Pranali" , "Priyanka", "Riya" };
+                    String[] arr = { "Harshu", "Mansi", "Pranali", "Priyanka", "Riya" };
                     String Name = "Riya";
                     int result = BinarySearch.binarySearch(arr, Name);
 
@@ -30,8 +30,17 @@ namespace DataStructureAlgorithm
                         Console.WriteLine("Name is not Present");
 
                     else
-                        Console.WriteLine("Name is Present at " + " Position "  + result);
+                        Console.WriteLine("Name is Present at " + " Position " + result);
                     break;
+
+                case 3:
+                    int[] arr1 = { 3, 1, 12, 6, 33, 22, 45 };
+                    InsertionSort insertion = new InsertionSort();
+                    insertion.insertion(arr1);
+                    insertion.printsortedarray(arr1);
+                    break;
+
+
             }
         }
     }
