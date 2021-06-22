@@ -40,6 +40,18 @@ namespace DataStructureAlgorithm
                     insertion.printsortedarray(arr1);
                     break;
 
+                case 4:
+                    // array of two strings
+                    char [] str1 = { 'm', 'a', 'd', 'a', 'm' };
+                    char[] str2 = { 'm', 'a', 'd', 'a', 'm' };
+
+                    if (Anagram.checkAnagram(str1, str2))
+                        Console.WriteLine("The Two Strings are" + " Anagram of each other");
+
+                    else
+                        Console.WriteLine("The Two Strings are Not" + " Anagram of each other");
+                    break;
+
 
             }
         }
