@@ -42,7 +42,7 @@ namespace DataStructureAlgorithm
 
                 case 4:
                     // array of two strings
-                    char [] str1 = { 'm', 'a', 'd', 'a', 'm' };
+                    char[] str1 = { 'm', 'a', 'd', 'a', 'm' };
                     char[] str2 = { 'm', 'a', 'd', 'a', 'm' };
 
                     if (Anagram.checkAnagram(str1, str2))
@@ -50,6 +50,19 @@ namespace DataStructureAlgorithm
 
                     else
                         Console.WriteLine("The Two Strings are Not" + " Anagram of each other");
+                    break;
+
+                case 5:
+                    int [] arr2 = { 88, 5, 27, 46, 39, 58, 72 };
+
+                    Merge merge = new Merge();
+                    Console.WriteLine("Given array-");
+                    merge.PrintArray((arr2));
+
+                    merge.Sort(arr2, 0, arr2.Length - 1);
+
+                    Console.WriteLine("\n Sorted array-");
+                    merge.PrintArray((arr2));
                     break;
 
 

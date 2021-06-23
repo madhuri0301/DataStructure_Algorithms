@@ -11,7 +11,7 @@ namespace DataStructureAlgorithm
 			int n1 = str1.Length;
 			int n2 = str2.Length;
 
-			// If length of both strings is not same, then they cannot be anagram
+			// If length of both strings are not same, then they cannot be anagram
 			if (n1 != n2)
 				return false;
 
